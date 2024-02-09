@@ -1,0 +1,108 @@
+/* TeamMember.css */
+
+/* Set background color for the entire page */
+body {
+  background: linear-gradient(135deg, #313e4b, #20486e 25%, #a2b5c9 50%, #273646 50.1%, #778ea1 75%, #aab8c2); /* Gradient for page background */
+}
+.team-members {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+/* Global CSS rule to set the same size for all images */
+img {
+  width: 200px; /* Adjust this value as needed */
+  height: 200px; /* Adjust this value as needed */
+  object-fit: cover;
+  border-radius: 50%; /* Optional: Makes the image round */
+  margin-bottom: 10px; /* Optional: Adds some spacing below the image */
+}
+
+h1 {
+  font-family: 'Oswald', sans-serif; /* Choose a bold sans-serif font style */
+  font-size: 3rem; /* Adjust the font size as needed */
+  text-align: center; /* Center-align the text */
+  margin-bottom: 20px; /* Add some bottom margin for spacing */
+  text-transform: uppercase; /* Convert text to uppercase */
+  color: #000308; /* Choose a bright color */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); /* Add a subtle text shadow */
+}
+
+h2{
+  font-family: 'Oswald', sans-serif; /* Choose a bold sans-serif font style */
+  font-size: 1rem; /* Adjust the font size as needed */
+  text-align: center; /* Center-align the text */
+  margin-bottom: 20px; /* Add some bottom margin for spacing */
+  text-transform: uppercase; /* Convert text to uppercase */
+  color: #060e22; /* Choose a bright color */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); /* Add a subtle text shadow */
+}
+
+
+ h3, h4, h5, h6 {
+  text-align: center; /* Center-align heading elements */
+  color: #8696a8; /* Text color */
+  font-family: "Arial", sans-serif; /* Font family */
+  font-weight: bold; /* Font weight */
+  margin-bottom: 20px; /* Bottom margin */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); /* Text shadow for a subtle effect */
+}
+
+p {
+  text-align: center; /* Center-align heading elements */
+  color: #1f2341; /* Text color */
+  font-family: "Arial", sans-serif; /* Font family */
+  font-weight: bold; /* Font weight */
+  margin-bottom: 10px; /* Bottom margin */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); /* Text shadow for a subtle effect */
+}
+
+
+.team-member {
+  width: 250px;
+  height: 350px;
+  margin: 20px;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: rgba(249, 249, 249, 0.356); /* Updated background color */
+  overflow: hidden;
+}
+
+.team-member:nth-child(odd) {
+  background: linear-gradient(135deg, #4d7885, #4e527e); /* New gradient for odd-indexed team members */
+}
+.team-member:nth-child(even) {
+  background: linear-gradient(135deg, #6697be, #5e7797); /* Gradient for odd-indexed team members */
+}
+
+.team-member:hover {
+  transform: translateY(-5px);
+}
+
+.team-member img {
+  width: 100%;
+  height: auto;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.team-member-content {
+  padding: 20px;
+}
+
+.team-member h3 {
+  margin: 0;
+  font-size: 1.2rem;
+}
+
+.team-member p {
+  margin: 5px 0;
+}
+
+
+.team-member {
+  background-color: #ffffff; /* White background for team member cards */
+}
+
